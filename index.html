@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Basic_Form</title>
+  </head>
+
+  <body>
+    <div class="container p-5 w-50">
+      <form>
+        <div class="border border-dark justify-content-sm-center">
+          <div class="form-row p-2 m-0 bg-primary border border-dark">
+            <div class="col bg-primary text-center">
+              Name
+            </div>
+            <div class="col bg-primary text-center">
+              Value
+            </div>
+          </div>
+          <div class="form-row p-0 m-0">
+            <div class="col-6 border border-dark">Name</div>
+            <div class="col-6 border border-dark p-0 m-0">
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                placeholder=""
+                value=""
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row p-0 m-0">
+            <div class="col border border-dark">Sex</div>
+            <div class="col border border-dark">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="gridRadios1"> Male </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="gridRadios1">
+                  Female
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-row p-0 m-0 border border-dark">
+            <div class="col-6 border border-dark">Eye color</div>
+            <div class="col-2 border border-dark p-0 m-0">
+              <select id="inputState" class="form-control">
+                <option selected>green</option>
+                <option>black</option>
+                <option>brown</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row p-0 m-0">
+            <div class="col-6 border border-dark">Check all that apply</div>
+            <div class="col-6 border border-dark">
+              <div class="form-group row">
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Over 6 feet tall
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Over 200 pounds
+                    </label>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+          <div class="form-row border border-dark p-0 m-0">
+            <div class="col"><p>Describe your athletic ability:</p></div>
+          </div>
+          <div class="form-row border border-dark p-0 m-0">
+                <div class="col form-group p-0 m-0">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+          </div>
+          <div class="form-row border border-dark p-0 m-0">
+            <di class="col-3"></di>
+            <div class="col-6 d-inline justify-content-center ">
+              <button type="button" class="btn btn-light btn-lg btn-block">Enter my information</button>
+            </div>
+            <div class="col-3"></div>
+          </div>
+      </form>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
